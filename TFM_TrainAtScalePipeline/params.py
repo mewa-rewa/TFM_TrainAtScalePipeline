@@ -7,3 +7,7 @@ AWS_BUCKET_PATH = "s3://wagon-public-datasets/taxi-fare-train.csv"
 
 MLFLOW_URI = "https://mlflow.lewagon.ai/"
 EXPERIMENT_NAME = "first_experiment"
+MODEL_LOCATION = 'gs://wagon-data-881-rusinowska/models/simpletaxifare/model.joblib'
+
+SOURCE_BLOB_NAME = 'models/simpletaxifare/model.joblib'
+DESTINATION_FILE_NAME = 'model.joblib'

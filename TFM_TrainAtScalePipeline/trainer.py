@@ -14,6 +14,8 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from TFM_TrainAtScalePipeline.params import BUCKET_NAME, BUCKET_TRAIN_DATA_PATH, STORAGE_LOCATION, EXPERIMENT_NAME, MLFLOW_URI
 from google.cloud import storage
 
+from predict import evaluate_model
+
 
 
 class Trainer(object):
